@@ -1,5 +1,5 @@
 # needy_gf_server
-Small server app on OSX to sends SMS and iMessage via JSON service
+Small server app on OSX to send SMS and iMessage via JSON service
 
 TO RUN:
 
