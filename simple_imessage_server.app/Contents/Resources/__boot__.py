@@ -151,11 +151,11 @@ def _setup_openssl():
     os.environ["SSL_CERT_FILE"] = os.path.join(
         resourcepath, "openssl.ca", "cert.pem")
     os.environ["SSL_CERT_DIR"] = os.path.join(
-        resourcepath, "openssl.ca", "certs")
+        resourcepath, "openssl.ca", "no-such-file")
 
 _setup_openssl()
 
 
-DEFAULT_SCRIPT='needy_gf_server.py'
+DEFAULT_SCRIPT='simple_imessage_server.py'
 SCRIPT_MAP={}
 _run()

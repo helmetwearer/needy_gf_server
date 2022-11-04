@@ -7,7 +7,7 @@ Usage:
 
 from setuptools import setup
 
-APP = ['needy_gf_server.py']
+APP = ['simple_imessage_server.py']
 DATA_FILES = []
 OPTIONS = {}
 
